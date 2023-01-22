@@ -19,7 +19,7 @@ PUT sample-data/_settings
 
 Will set the index **sample-data** to read only. After running the API call above if you try to write a document to the index you will receive an error
 
-IMAGE 1
+<img width="800" alt="cat_indicies_1" src="https://github.com/ev2900/OpenSearch_Read_Only_Index/blob/main/README/read_only_true.PNG">
 
 ## Disable Read Only (ie. enable writes)
 
@@ -36,4 +36,4 @@ PUT sample-data/_settings
 
 Once read only is false, you can again write data to the index
 
-IMAGE 2
+<img width="800" alt="cat_indicies_1" src="https://github.com/ev2900/OpenSearch_Read_Only_Index/blob/main/README/read_only_false.PNG">
