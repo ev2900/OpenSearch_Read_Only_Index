@@ -1,6 +1,6 @@
 # OpenSearch Read Only Index
 
-OpenSearch indices can be set to read only ie. all write requests will throw and exception and be blocked. There are multiple reasons why you would want to make an index read only. One reason is before running certain back end operations such as a force merge it is recommended to make an index read only.
+OpenSearch indices can be set to read only ie. all write requests will throw an exception and be blocked. There are multiple reasons why you would want to make an index read only. One reason is before running certain back end operations such as a force merge it is recommended to make an index read only.
 
 The instructions below demonstrate how to make an index read only and the enable writes again.
 
