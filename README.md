@@ -1,6 +1,6 @@
 # OpenSearch Read Only Index
 
-<img width="85" alt="map-user" src="https://img.shields.io/badge/views-0000-green"> <img width="125" alt="map-user" src="https://img.shields.io/badge/unique visits-0000-green">
+<img width="85" alt="map-user" src="https://img.shields.io/badge/views-437-green"> <img width="125" alt="map-user" src="https://img.shields.io/badge/unique visits-0000-green">
 
 If you prefer to watch a video instead of reading the instructions below, check out the link below
 
@@ -13,7 +13,7 @@ The instructions below demonstrate how to make an index read only and the enable
 
 ## Set an Index to Read Only
 
-Running 
+Running
 
 ```
 PUT sample-data/_settings
@@ -21,7 +21,7 @@ PUT sample-data/_settings
   "index": {
     "blocks.read_only": true
   }
-} 
+}
 ```
 
 Will set the index **sample-data** to read only. After running the API call above if you try to write a document to the index you will receive an error
@@ -38,7 +38,7 @@ PUT sample-data/_settings
   "index": {
     "blocks.read_only": false
   }
-} 
+}
 ```
 
 Once read only is false, you can again write data to the index
