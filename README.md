@@ -1,6 +1,6 @@
 # OpenSearch Read Only Index
 
-<img width="85" alt="map-user" src="https://img.shields.io/badge/views-2261-green"> <img width="125" alt="map-user" src="https://img.shields.io/badge/unique visits-1589-green">
+<img width="85" alt="map-user" src="https://img.shields.io/badge/views-2261-green"> <img width="125" alt="map-user" src="https://img.shields.io/badge/unique visits-1614-green">
 
 If you prefer to watch a video instead of reading the instructions below, check out the link below
 
